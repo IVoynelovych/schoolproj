@@ -1,0 +1,125 @@
+html{
+    box-sizing: border-box;
+}
+html * ,::after, ::before{
+    box-sizing:inherit;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+}
+body{
+   font-family: 'Roboto';
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+.review-container{
+    margin: 0 auto;
+    max-width: 1280px;
+    padding-left: 118px;
+    padding-right: 165px;
+}
+.review-title{
+    font-weight: 400;
+    font-size: 66px;
+    padding-top: 68px;
+    margin-bottom: 98px;
+    display: block;
+    width: 683px;
+    color: #49464F;
+}
+.review-container{
+    width: 1280px;
+    padding-left: 118px;
+    padding-right: 165px;
+}
+.review-lst{
+    display: flex;
+    gap: 134px;
+}
+.review{
+    width: 246px;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 1;
+}
+.review span{
+    display: block;
+    margin-top: 19px;
+    font-size: 17px;
+
+}
+.james-review{
+    width: 256px;
+    font-size: 28px;
+}
+.james-review span{
+    margin-top: 54px;
+}
+.travis-review{
+    width: 227px;
+    font-size: 28px;
+}
+.what-container{
+    max-width: 1280px;
+    padding-left: 118px;
+    padding-right: 160px;
+    margin: 0 auto;
+    display: flex;
+    gap: 208px;
+}
+.what-to-know{
+    background: #F5F5F7;
+}
+.what-title{
+    width: 235px;
+    padding-top: 212px;
+    font-weight: 400;
+    font-size: 67px;
+    line-height: 1;
+}
+.what-title span{
+    display: block;
+}
+.to-more-btn{
+    margin-top: 65px;
+    margin-bottom: 144px;
+    padding: 12px 49px 11px 50px;
+    color: #2E2C34;
+    border: 1px solid #2E2C34;
+    border-radius: 999px;
+    background-color: transparent;
+}
+.what-lst{
+    padding-top: 96px;
+}
+.question{
+    position: relative;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 0.84;
+}
+.question + .question{
+    margin-top: 45px;
+}
+.question::after{
+    position: absolute;
+    content: " ";
+    display: block;
+    background: url(./plus.svg#plus);
+    width: 17px;
+    height: 17px;
+    top: 5px;
+    left: -34px;
+
+}
